@@ -5,6 +5,11 @@
 .stats-container .stats-grid:last-child {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
-.stats-container .stats-grid:last-child *{
+.stats-container .stats-grid:last-child > *{
     color: white;
+}
+.stats-container .stats-grid:hover{
+    
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 0 rgba(0, 0, 0 ,0.3);  
 }
