@@ -58,6 +58,23 @@
 }
 .nav-item:focus{
     background-color: rgba(102, 98, 98, 0.376);
-    transform: translateY(-4px);
+    transform: translateY(-2px);
     color: #667eea;
+    transition:ease-out;
+}
+.quote-box::before{
+    content: "＂";
+    position: absolute;
+    font-size: 40px;
+    left: 1px;
+    top: 7px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.quote-box::after{
+    content: "＂";
+    position: absolute;
+    font-size: 40px;
+   right: 10px;
+    top: 25px;
+    color: rgba(255, 255, 255, 0.3);
 }
