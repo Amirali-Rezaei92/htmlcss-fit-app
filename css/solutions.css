@@ -38,3 +38,17 @@
     border: 4px solid rgba(80, 16, 148, 0.632);
     translate: 1%;
 }
+.save-btn:hover{
+    background-color:rgb(122, 170, 206) ;
+    box-shadow: 2px 2px 0 rgba(0, 0, 118, 0.5);
+    transform: translateY(-2px);
+}
+.progress-fill::before{
+    position: absolute;
+    left: 70%;
+    top: -1px;
+    content: "65%";
+    color: white;
+    font-size: 9px;
+    text-align: center;
+}
