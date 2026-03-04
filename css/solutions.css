@@ -52,3 +52,12 @@
     font-size: 9px;
     text-align: center;
 }
+.nav-item:hover{
+    transform:translateY(-2px) ;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav-item:focus{
+    background-color: rgba(102, 98, 98, 0.376);
+    transform: translateY(-4px);
+    color: #667eea;
+}
